@@ -1,4 +1,37 @@
 # Prompt-engineering-experiments
+Experiment Title
+
+Objective:
+What were you trying to learn/test?
+
+Prompt:
+Paste the exact prompt(s).
+
+Parameters:
+
+Model: (GPT / Claude / etc.)
+
+Temperature:
+
+Max tokens:
+
+Number of runs:
+
+
+Observations:
+
+
+Unexpected Behavior:
+
+
+Consistency Rating (1–5):
+How stable were the outputs?
+
+Conclusions:
+What did you learn about how the model behaves?
+
+Next Steps:
+What will you test next?
 Experiment 01 — Testing Instruction Adherence
 Goal: See whether the LLM follows a multi-step instruction with constraints.
 Prompt:
