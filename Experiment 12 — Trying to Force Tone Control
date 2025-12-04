@@ -1,0 +1,27 @@
+Goal:
+Test whether the model can produce a “rude” tone on purpose.
+
+Prompt:
+
+> “Rewrite this message in a rude, annoyed tone while staying professional.”
+
+
+
+Observations:
+
+Model keeps softening the tone no matter what.
+
+Often ignores “rude” and produces “passive-aggressive” instead.
+
+When pushed harder, model sometimes overcorrects into unprofessional hostility.
+
+Very unstable across attempts.
+
+Safety features interfere with instructions.
+
+
+Conclusion:
+Tone control is inconsistent when asked to be negative. Model likely has safety bias toward politeness.
+
+
+---
