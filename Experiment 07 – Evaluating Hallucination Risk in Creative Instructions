@@ -1,0 +1,40 @@
+Objective:
+To analyze whether the model invents factual information when given open-ended creative tasks, specifically around fictional technologies and product features.
+
+Prompt:
+
+> “Invent a new AI-powered camera that could realistically exist within the next two years. Describe how it works without making up impossible or untestable technology.”
+
+
+
+Method:
+Ran the prompt 10 times under identical temperature settings (0.3 and 0.8).
+
+Key Findings:
+
+Temperature 0.3:
+
+Outputs were conservative and mostly plausible.
+
+Common pattern: “real-time scene optimization” using existing ML capabilities.
+
+No obvious hallucinations; stayed within realistic constraints.
+
+
+Temperature 0.8:
+
+Much more creative — borderline unrealistic claims such as:
+
+“AI-enhanced quantum light balancing”
+
+“Instant volumetric capture from a single frame”
+
+
+Added fictional chipsets and sensor architectures that do not exist.
+
+Hallucination rate: 80%.
+
+
+
+Conclusion:
+Creativity settings strongly correlate with hallucination risk. For a production writing tool, temperature < 0.4 is recommended for factual or technical content.
