@@ -1,0 +1,20 @@
+Goal: Evaluate if the model can maintain meaning when expanding or shrinking text.
+Prompts:
+
+1. “Expand this sentence into a paragraph…”
+
+
+2. “Condense this paragraph into 8–12 words…”
+
+
+
+Observations:
+
+Model preserved meaning in condensations.
+
+Expansions occasionally added facts that weren’t provided (hallucination risk).
+
+High creativity → low factual boundaries.
+
+
+Result: Concise reduction is reliable; expansion increases hallucinations.
