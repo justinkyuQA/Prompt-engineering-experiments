@@ -1,0 +1,17 @@
+Goal:
+Check if the model forgets constraints in longer conversations.
+
+Notes:
+
+After 4–5 follow-up prompts, the model forgets earlier constraints like:
+
+“Don't use bullet points.”
+
+“Keep answers under 80 words.”
+
+
+Reinforcement helps but doesn’t fully solve the issue.
+
+
+Conclusion:
+Multi-turn memory requires frequent restating of rules.
