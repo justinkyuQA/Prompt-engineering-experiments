@@ -1,0 +1,21 @@
+Experiment 02 — Role-Based Prompting for Consistency
+
+Goal: Test stability when assigning a role to the model.
+Prompt:
+
+> “You are an email marketing expert. Write a short product announcement email for a new smartwatch.”
+
+
+
+Observations:
+
+Role assignment improved structure and clarity.
+
+Increased marketing jargon when role was added.
+
+Tone stayed consistent across 5 generations.
+
+CTA (call-to-action) present in 4/5 outputs.
+
+
+Result: Role priming increases structure but not perfect CTA consistency
